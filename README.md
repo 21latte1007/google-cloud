@@ -1,8 +1,20 @@
 # google-cloud
-## Cloud SQL - Connect
-1. Cloud SQL의 '연결'의 '네트워크'에서 접속하고자 하는 컴퓨터 등의 IP 등록.
-2. VM 인스턴스의 SSH에 접속
-3. "mysql -h <<MYSQL_IP>> -u root -p" 명령어 입력
-4. PW 입력
-5. "use <<DB_NAME>;" 입력
-6. 이후 SQL 구문 활용하여 DB 열람 가능.
+## App Engine
+- DB Connector의 App Engine 형태 Porting
+
+## BigQuery
+- Crawling한 HTML 데이터 BigQuery에 적재
+- Local에서 BigQuery 연결
+
+## Cloud Function
+- Storage에 파일이 적재되는 것을 트리거로 BigQuery에 데이터를 적재하는 프로세스
+
+## Cloud SQL
+- VM Instance에 Cloud SQL을 연결하는 프로세스
+
+## Cloud Storage
+- Local에서 Cloud Storage로 파일 업로드
+- Storage의 파일을 Bigquery로 전송하는 프로세스
+
+## Kubernetes Engine
+- GKE를 실행하는 기초 프로세스
